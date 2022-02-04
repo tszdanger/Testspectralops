@@ -1,0 +1,99 @@
+\hypertarget{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c}{}\doxysection{CWE121\+\_\+\+Stack\+\_\+\+Based\+\_\+\+Buffer\+\_\+\+Overflow\+\_\+\+\_\+char\+\_\+type\+\_\+overrun\+\_\+memcpy\+\_\+01.\+c File Reference}
+\label{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c}\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}}
+{\ttfamily \#include \char`\"{}std\+\_\+testcase.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$wchar.\+h$>$}\newline
+Include dependency graph for CWE121\+\_\+\+Stack\+\_\+\+Based\+\_\+\+Buffer\+\_\+\+Overflow\+\_\+\+\_\+char\+\_\+type\+\_\+overrun\+\_\+memcpy\+\_\+01.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct__charVoid}{\+\_\+char\+Void}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a3db4d97257976c96e00e115faef28eb5}{SRC\+\_\+\+STR}}~\char`\"{}0123456789abcdef0123456789abcde\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{struct__charVoid}{\+\_\+char\+Void}} \mbox{\hyperlink{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_ae4a0369b86b22d82e46d6dd04cfef15f}{char\+Void}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_ab861d091d536df891b9feb0c53debf56}{CWE121\+\_\+\+Stack\+\_\+\+Based\+\_\+\+Buffer\+\_\+\+Overflow\+\_\+\+\_\+char\+\_\+type\+\_\+overrun\+\_\+memcpy\+\_\+01\+\_\+bad}} ()
+\item 
+static void \mbox{\hyperlink{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a3a3172b24f87506b91a0722813a7d617}{good1}} ()
+\item 
+void \mbox{\hyperlink{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a49570ea31b08302e02751b282b59dfbc}{CWE121\+\_\+\+Stack\+\_\+\+Based\+\_\+\+Buffer\+\_\+\+Overflow\+\_\+\+\_\+char\+\_\+type\+\_\+overrun\+\_\+memcpy\+\_\+01\+\_\+good}} ()
+\item 
+int \mbox{\hyperlink{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a3db4d97257976c96e00e115faef28eb5}\label{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a3db4d97257976c96e00e115faef28eb5}} 
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}!SRC\_STR@{SRC\_STR}}
+\index{SRC\_STR@{SRC\_STR}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}}
+\doxysubsubsection{\texorpdfstring{SRC\_STR}{SRC\_STR}}
+{\footnotesize\ttfamily \#define SRC\+\_\+\+STR~\char`\"{}0123456789abcdef0123456789abcde\char`\"{}}
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_ae4a0369b86b22d82e46d6dd04cfef15f}\label{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_ae4a0369b86b22d82e46d6dd04cfef15f}} 
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}!charVoid@{charVoid}}
+\index{charVoid@{charVoid}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}}
+\doxysubsubsection{\texorpdfstring{charVoid}{charVoid}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct__charVoid}{\+\_\+char\+Void}} \mbox{\hyperlink{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_ae4a0369b86b22d82e46d6dd04cfef15f}{char\+Void}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_ab861d091d536df891b9feb0c53debf56}\label{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_ab861d091d536df891b9feb0c53debf56}} 
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_bad@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_bad}}
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_bad@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_bad}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}}
+\doxysubsubsection{\texorpdfstring{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_bad()}{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_bad()}}
+{\footnotesize\ttfamily void CWE121\+\_\+\+Stack\+\_\+\+Based\+\_\+\+Buffer\+\_\+\+Overflow\+\_\+\+\_\+char\+\_\+type\+\_\+overrun\+\_\+memcpy\+\_\+01\+\_\+bad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a49570ea31b08302e02751b282b59dfbc}\label{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a49570ea31b08302e02751b282b59dfbc}} 
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_good@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_good}}
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_good@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_good}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}}
+\doxysubsubsection{\texorpdfstring{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_good()}{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01\_good()}}
+{\footnotesize\ttfamily void CWE121\+\_\+\+Stack\+\_\+\+Based\+\_\+\+Buffer\+\_\+\+Overflow\+\_\+\+\_\+char\+\_\+type\+\_\+overrun\+\_\+memcpy\+\_\+01\+\_\+good (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a49570ea31b08302e02751b282b59dfbc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a3a3172b24f87506b91a0722813a7d617}\label{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a3a3172b24f87506b91a0722813a7d617}} 
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}!good1@{good1}}
+\index{good1@{good1}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}}
+\doxysubsubsection{\texorpdfstring{good1()}{good1()}}
+{\footnotesize\ttfamily static void good1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}!main@{main}}
+\index{main@{main}!CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c@{CWE121\_Stack\_Based\_Buffer\_Overflow\_\_char\_type\_overrun\_memcpy\_01.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{CWE121__Stack__Based__Buffer__Overflow____char__type__overrun__memcpy__01_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
